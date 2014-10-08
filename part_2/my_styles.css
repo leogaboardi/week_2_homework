@@ -21,34 +21,6 @@ img{
   max-width: 100%;
 }
 
-.column25{
-  width: 25%;
-  padding: 5px;
-  float: left;
-}
-
-
-.column33{
-  min-width: 150px;
-  width: 30%;
-  padding: 0px;
-  border: thin black dashed;
-  display: inline-block;
-}
-
-.column67{
-  width: 66.67%;
-  padding: 0px;
-  border: thin black dashed;
-  display: inline-block;
-}
-
-.container{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
 .button{
   padding: 15px 25px 15px 25px;
   background-color: rgb(102,102,255);
@@ -61,6 +33,27 @@ img{
   min-width: 100px;
 }
 
-.red{
-  border: thin red solid;
+.column25{
+  width: 25%;
+  padding: 5px;
+  float: left;
 }
+
+
+.column33{
+  min-width: 150px;
+  width: 33%;
+  padding: 10px;
+  float: left;
+}
+
+.column67{
+  width: 66%;
+  padding: 0px;
+  float: left;
+}
+
+.container{
+  clear: both;
+}
+
